@@ -22,7 +22,7 @@ from seleniumbase import Driver
 
 driver = Driver(uc=True)
 
-with open('test.csv', mode='r') as file:
+with open('URL.csv', mode='r') as file:
     reader = csv.reader(file)
     for row in reader:
         print(">>> ", row[0])
